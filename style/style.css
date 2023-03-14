@@ -1,23 +1,31 @@
 /* Start Variables */
 :root {
-
+  --main-color: #062240;
+  --second-color: #92b2d3;
+  --main-heading: 'Raleway', sans-serif;
 }
 /* End Variables */
 /* start fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Anton&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Fasthand&family=Fredoka+One&family=Gloria+Hallelujah&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nabla&family=Oleo+Script:wght@400;700&family=Poiret+One&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,800;1,900&family=Rubik+Burned&family=Tangerine:wght@400;700&display=swap');
-  /* font-family: 'Amiri Quran', serif;
-  font-family: 'Anton', sans-serif;
-  font-family: 'Cairo', sans-serif;
-  font-family: 'Fasthand', cursive;
-  font-family: 'Fredoka One', cursive;
-  font-family: 'Gloria Hallelujah', cursive;
-  font-family: 'Lato', sans-serif;
-  font-family: 'Nabla', cursive;
-  font-family: 'Oleo Script', cursive;
-  font-family: 'Poiret One', cursive;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Rubik Burned', cursive;
-  font-family: 'Tangerine', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Amiri+Quran&family=Anton&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Fasthand&family=Fredoka+One&family=Gloria+Hallelujah&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@800&family=Nabla&family=Oleo+Script:wght@400;700&family=Poiret+One&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Burned&family=Tangerine:wght@400;700&display=swap');
+
+/* 
+  font-family: 'Almarai', sans-serif;
+font-family: 'Amiri Quran', serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Cairo', sans-serif;
+font-family: 'Fasthand', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nabla', cursive;
+font-family: 'Oleo Script', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Rubik Burned', cursive;
+font-family: 'Tangerine', cursive;
 /* end fonts  */
 
 /* Start Global Rules */
@@ -26,40 +34,40 @@
   padding: 0;
   margin: 0;
 }
+*::selection {
+  background: #2b3dda;
+  color: #fff;
+}
+
 html {
   scroll-behavior: smooth;
 }
+html::-webkit-scrollbar {
+  width: 15px;
+}
+html::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+}
+html::-webkit-scrollbar-track {
+  background: var(--second-color);
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 /* Small */
 @media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
 }
 /* Medium */
 @media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
 }
 /* Large */
 @media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
 }
 /* End Global Rules */
 
-
-p{
+p {
   margin: auto;
   margin-top: 500px;
   font-size: 40px;
