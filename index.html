@@ -19,7 +19,7 @@
     <!-- font awesome  -->
     <link rel="stylesheet" href="./style/all.min.css" />
     <!-- wow js  -->
-<link rel="stylesheet" href="style/animate.css">
+    <link rel="stylesheet" href="style/animate.css" />
     <!-- style css  -->
     <link rel="stylesheet" href="./style/style.css" />
     <!-- laptop  -->
@@ -42,13 +42,25 @@
     />
   </head>
   <body>
-<p class="wow slideInDown">Hello</p>
+    <div></div>
+    <p
+      class="wow fadeOutUp"
+      data-wow-duration="2s"
+      data-wow-delay="1s"
+      data-wow-iteration="2"
+      data-wow-offset="10"
+    >
+      Hello
+    </p>
+
+    <div></div>
+
     <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
     <script src="./js/script.js"></script>
     <!-- wow js  -->
     <script src="dist/wow.js"></script>
     <script>
-    new WOW().init();
+      new WOW().init();
     </script>
   </body>
 </html>

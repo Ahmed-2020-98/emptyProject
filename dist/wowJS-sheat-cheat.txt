@@ -1,3 +1,11 @@
+    <p
+      class="wow fadeOutUp"
+      data-wow-duration="2s"
+      data-wow-delay="1s"
+      data-wow-iteration="2"
+      data-wow-offset="10"
+    >
+
 //Attention seekers
 bounce
 flash
@@ -12,16 +20,7 @@ wobble
 jello
 heartBeat
 
-//Back entrances
-backInDown
-backInLeft
-backInRight
-backInUp
-Back exits
-backOutDown
-backOutLeft
-backOutRight
-backOutUp
+
 
 //Bouncing entrances
 bounceIn
@@ -45,7 +44,7 @@ fadeInLeft
 fadeInLeftBig
 fadeInRight
 fadeInRightBig
-fadeInUp
+fadeInUp  --------------->
 fadeInUpBig
 fadeInTopLeft
 fadeInTopRight
@@ -74,11 +73,6 @@ flipInY
 flipOutX
 flipOutY
 
-//Lightspeed
-lightSpeedInRight
-lightSpeedInLeft
-lightSpeedOutRight
-lightSpeedOutLeft
 
 //Rotating entrances
 rotateIn
@@ -96,7 +90,6 @@ rotateOutUpRight
 
 //Specials
 hinge
-jackInTheBox
 rollIn
 rollOut
 
